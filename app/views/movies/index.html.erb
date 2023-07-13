@@ -25,6 +25,10 @@
     </th>
 
     <th>
+      Image URL
+    </th>
+
+    <th>
       Created at
     </th>
 
@@ -49,7 +53,11 @@
     <td>
       <%= movie.description %>
     </td>
-
+ 
+    <td>
+      <%= movie.image_url %>
+    </td>
+   
     <td>
       <%= time_ago_in_words(movie.created_at) %> ago
     </td>
